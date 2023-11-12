@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GeistSans, GeistMono } from "geist/font";
 import "./globals.css";
+import { Header } from "@/app/_ui/header";
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -17,7 +18,10 @@ export default function RootLayout({
             lang="en"
             className={`${GeistSans.variable} ${GeistMono.variable}`}
         >
-            <body>{children}</body>
+            <body className="antialiased bg-black text-neutral-400">
+                <Header />
+                {children}
+            </body>
         </html>
     );
 }
