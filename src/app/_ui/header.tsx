@@ -3,6 +3,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Logo } from "./logo";
 
 const links = [
     { name: "Work", href: "/work" },
@@ -13,15 +14,19 @@ const links = [
 export function Header() {
     const pathname = usePathname();
     return (
-        <header className="fixed w-full h-16 flex bg-black/80 backdrop-blur z-50 border-b border-neutral-800">
-            <div>logo</div>
-            <nav className="fixed top-16 bottom-0 w-full md:static md:w-auto">
-                <ul className="flex">
+        <header className="sticky top-0 w-full h-16 flex items-center justify-between bg-black/80 backdrop-blur z-50 border-b border-neutral-800 px-6">
+            <div>
+                <Link href="/">
+                    <Logo />
+                </Link>
+            </div>
+            <nav>
+                <ul className="flex gap-4">
                     {links.map(({ name, href }) => (
                         <li key={name}>
                             <Link
                                 href={href}
-                                className={clsx("hover:text-white", {
+                                className={clsx("hover:text-white transition", {
                                     "text-white": pathname === href,
                                 })}
                             >
@@ -31,7 +36,6 @@ export function Header() {
                     ))}
                 </ul>
             </nav>
-            <button>mobile</button>
         </header>
     );
 }
