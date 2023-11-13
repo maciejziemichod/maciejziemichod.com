@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans, GeistMono } from "geist/font";
 import "./globals.css";
 import { Header } from "@/app/_ui/header";
+import { Footer } from "@/app/_ui/footer";
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -21,6 +22,7 @@ export default function RootLayout({
             <body className="antialiased bg-black text-neutral-400 break-words">
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );
