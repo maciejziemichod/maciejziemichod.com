@@ -1,7 +1,8 @@
 export default function Page() {
     return (
         <main>
-            hello world
+            <h2>Connect</h2>
+            <p>Reach me at twitter, email or linkedin</p>
             <p>
                 To me, the biggest benefit of Knowledge Based Games is when you
                 apply a similar approach to life, embracing exploration,
@@ -12,7 +13,19 @@ export default function Page() {
             </p>
             <p>Golang pilled</p>
             <p>Vim motions pilled</p>
+            <p>LazyVim user</p>
+            <p>Quality memes enjoyer</p>
             <p>Tea drinker | More keywords</p>
+            <p>Link to CV</p>
+            <p>List out technologies I used https://cherupil.com/resume/</p>
+            <p>Based in Poland</p>
+            <p>Dark mode fan</p>
+            <p>Side projects</p>
+            <p>watching movies</p>
+            <p>posting on twitter</p>
+            <p>trying to do blogging</p>
+            <p>Music passionate</p>
+            <p>Learning freak</p>
         </main>
     );
 }
