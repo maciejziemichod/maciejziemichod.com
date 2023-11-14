@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-        <main>
+        <main className="max-w-2xl mx-auto px-6 py-12 sm:py-24">
             <h2>Connect</h2>
             <p>Reach me at twitter, email or linkedin</p>
             <p>
@@ -26,6 +26,8 @@ export default function Page() {
             <p>trying to do blogging</p>
             <p>Music passionate</p>
             <p>Learning freak</p>
+            <p>vue3 custom directive</p>
+            <p>leetcode and advent of code enjoyer</p>
         </main>
     );
 }
