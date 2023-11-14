@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SimpleCard } from "./_ui/simple-card";
 
 export default function Home() {
     return (
@@ -32,6 +33,36 @@ export default function Home() {
                     Recent work
                 </h2>
             </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-5">
+                <SimpleCard
+                    link="https://www.myktis.com/"
+                    image="/nwm.png"
+                    title="Northwestern Media"
+                    description="Rebuild of legacy network of radio stations
+                            websites with client-side navigation, mobile apps and node servers."
+                    stack={[
+                        "React",
+                        "Socket.IO",
+                        "TypeScript",
+                        "PHP",
+                        "Node",
+                        "WordPress",
+                    ]}
+                />
+                <SimpleCard
+                    link="https://app.huumans.io/"
+                    image="/huumans.png"
+                    title="Huumans"
+                    description="Physical, mental and workplace wellbeing web app with diagnostic and reporting tools for employers and useful resources for employees."
+                    stack={[
+                        "React",
+                        "Chart.js",
+                        "TypeScript",
+                        "PHP",
+                        "WordPress",
+                    ]}
+                />
+            </div>
 
             <div className="mt-32 pb-2 relative">
                 <div className="absolute bottom-0 -right-4 w-[0.5px] h-24 bg-gradient-to-b from-transparent to-neutral-600"></div>
@@ -46,9 +77,8 @@ export default function Home() {
                 traits.
             </p>
             <p className="pt-5">
-                Outside of programming I embrace the joy of exploring life. Too
-                many things seem interesting to me, from traveling to games. You
-                can{" "}
+                Outside of programming I embrace the joy of exploring life. I'm
+                interested in too many things, from traveling to games. You can{" "}
                 <Link
                     className="text-white border-b border-neutral-400 hover:border-white transition"
                     href="/about"
