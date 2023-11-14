@@ -8,7 +8,7 @@ export default function Home() {
                 Maciej Ziemichod
             </h1>
             <p className="pt-6">
-                Hi, I'm Maciej Ziemichod, a{" "}
+                Hi, I&apos;m Maciej Ziemichod, a{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
                     curiosity&nbsp;driven
                 </span>{" "}
@@ -72,13 +72,14 @@ export default function Home() {
                 </h2>
             </div>
             <p className="pt-5">
-                I'm proficient in TypeScript, Node, React ecosystem, PHP and
-                WordPress. Rapid adoption and perseverance are my most valuable
-                traits.
+                I&apos;m proficient in TypeScript, Node, React ecosystem, PHP
+                and WordPress. Rapid adoption and perseverance are my most
+                valuable traits.
             </p>
             <p className="pt-5">
-                Outside of programming I embrace the joy of exploring life. I'm
-                interested in too many things, from traveling to games. You can{" "}
+                Outside of programming I embrace the joy of exploring life.
+                I&apos;m interested in too many things, from traveling to games.
+                You can{" "}
                 <Link
                     className="text-white border-b border-neutral-400 hover:border-white transition"
                     href="/about"

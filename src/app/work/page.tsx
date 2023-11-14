@@ -6,7 +6,7 @@ export default function Page() {
                 gam, jensen, side projects from github (typescript interpreter
                 is a must)
             </p>
-            <p>more complex single project card than what's on homepage</p>
+            <p>more complex single project card than what is on homepage</p>
             <p></p>
             <p></p>
             <p></p>

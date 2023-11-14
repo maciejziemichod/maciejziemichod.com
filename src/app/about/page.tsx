@@ -8,8 +8,8 @@ export default function Page() {
                 apply a similar approach to life, embracing exploration,
                 perseverance, curiosity and a cultivation of skill, connecting
                 the dots yourself, and so on. Then practising in your everyday
-                life, feeds back into your gaming experience. That's just one of
-                the many things I love about gaming.
+                life, feeds back into your gaming experience. That&apos;s just
+                one of the many things I love about gaming.
             </p>
             <p>Golang pilled</p>
             <p>Vim motions pilled</p>
