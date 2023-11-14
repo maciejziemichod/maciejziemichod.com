@@ -37,6 +37,7 @@ export default function Home() {
                 <SimpleCard
                     link="https://www.myktis.com/"
                     image="/nwm.png"
+                    alt="MyKTIS website."
                     title="Northwestern Media"
                     description="Rebuild of legacy network of radio stations
                             websites with client-side navigation, mobile apps and node servers."
@@ -53,6 +54,7 @@ export default function Home() {
                     link="https://app.huumans.io/"
                     image="/huumans.png"
                     title="Huumans"
+                    alt="Huumans app shown on smartphone."
                     description="Physical, mental and workplace wellbeing web app with diagnostic and reporting tools for employers and useful resources for employees."
                     stack={[
                         "React",

@@ -3,6 +3,7 @@ import Image from "next/image";
 type SimpleCardProps = {
     link: string;
     image: string;
+    alt: string;
     title: string;
     description: string;
     stack: string[];
@@ -11,6 +12,7 @@ type SimpleCardProps = {
 export function SimpleCard({
     link,
     image,
+    alt,
     title,
     description,
     stack,
@@ -21,7 +23,7 @@ export function SimpleCard({
                 <Image
                     className="rounded-md w-full"
                     src={image}
-                    alt="placeholder image"
+                    alt={alt}
                     width={574}
                     height={344}
                     priority={true}
