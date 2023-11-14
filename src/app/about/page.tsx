@@ -47,13 +47,13 @@ export default function Page() {
             </p>
             <blockquote className="italic my-4 pl-4 border-l-2 border-neutral-800">
                 <p>
-                    "To me, the biggest benefit of Knowledge Based Games is when
-                    you apply a similar approach to life, embracing exploration,
-                    perseverance, curiosity and a cultivation of skill,
-                    connecting the dots yourself, and so on. Then practising in
-                    your everyday life, feeds back into your gaming experience.
-                    That&apos;s just one of the many things I love about
-                    gaming."
+                    &quot;To me, the biggest benefit of Knowledge Based Games is
+                    when you apply a similar approach to life, embracing
+                    exploration, perseverance, curiosity and a cultivation of
+                    skill, connecting the dots yourself, and so on. Then
+                    practising in your everyday life, feeds back into your
+                    gaming experience. That&apos;s just one of the many things I
+                    love about gaming.&quot;
                 </p>
             </blockquote>
 
@@ -73,7 +73,7 @@ export default function Page() {
                     target="_blank"
                     className="text-white border-b border-neutral-400 hover:border-white transition"
                 >
-                    "Writing A Compiler In Go"
+                    &quot;Writing A Compiler In Go&quot;
                 </a>
                 .
             </p>
@@ -81,9 +81,9 @@ export default function Page() {
             <p className="pt-8">
                 In my career as a full stack developer I had to quickly adapt to
                 various technologies, I was the guy that did the hard/unusual
-                tasks. Most of stuff I've worked on were in TypeScript, Node,
-                React, PHP or WordPress. Here's a list of relevant keywords in
-                random order:
+                tasks. Most of stuff I&apos;ve worked on were in TypeScript,
+                Node, React, PHP or WordPress. Here&apos;s a list of relevant
+                keywords in random order:
             </p>
             <p className="pt-2 text-xs">
                 TypeScript | JavaScript | Node | PHP | React | WordPress | Vue |
