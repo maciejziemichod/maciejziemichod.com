@@ -67,7 +67,7 @@ export default function Page() {
                     TypeScript interpreter
                 </a>{" "}
                 for Monkey programming language. It was really fun to get a
-                grasp of how interpreters work and I plan read follow up book{" "}
+                grasp of how interpreters work and I plan to read follow up book{" "}
                 <a
                     href="https://compilerbook.com/"
                     target="_blank"
