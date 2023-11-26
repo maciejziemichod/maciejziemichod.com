@@ -13,7 +13,7 @@ const links = [
 export function Header() {
     const pathname = usePathname();
     return (
-        <header className="sticky top-0 w-full h-16 flex items-center justify-between bg-black/80 backdrop-blur z-50 border-b border-neutral-800 px-6">
+        <header className="sticky top-0 w-full h-16 flex items-center justify-between bg-black/80 backdrop-blur z-40 border-b border-neutral-800 px-6">
             <div>
                 <Link href="/">
                     <span className="sr-only">Maciej Ziemichod logotype</span>
