@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/app/_ui/header";
 import { Footer } from "@/app/_ui/footer";
 import Script from "next/script";
+import { SkipToContent } from "./_ui/skip-to-content";
 
 export const metadata: Metadata = {
     title: "Maciej Ziemichod - Full stack developer",
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 const isProduction = process.env.NODE_ENV === "production";
+const contentId = "content";
 
 export default function RootLayout({
     children,
@@ -31,8 +33,9 @@ export default function RootLayout({
             )}
 
             <body className="antialiased bg-black text-neutral-400 break-words selection:bg-white/10">
+                <SkipToContent id={contentId} />
                 <Header />
-                {children}
+                <div id={contentId}>{children}</div>
                 <Footer />
             </body>
         </html>
