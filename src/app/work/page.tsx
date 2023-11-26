@@ -1,4 +1,11 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Projects - Maciej Ziemichod",
+    description:
+        "Maciej Ziemichod's commercial projects. Main technologies used are WordPress, TypeScript and React.",
+};
 
 export default function Page() {
     const projects = [

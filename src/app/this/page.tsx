@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "maciejziemichod.com tech stack",
+    description:
+        "Inspirations and technologies used to build maciejziemichod.com",
+};
+
 export default function Page() {
     const inspirations = [
         "https://antfu.me/",

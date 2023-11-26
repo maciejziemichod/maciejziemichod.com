@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Blog - Maciej Ziemichod",
+    description:
+        "My thoughts on software development, mainly focused on TypeScript ecosystem.",
+};
+
 export default function Page() {
     return (
         <main className="max-w-2xl mx-auto px-6 py-12 sm:py-24">
