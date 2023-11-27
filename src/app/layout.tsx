@@ -10,6 +10,12 @@ import { SkipToContent } from "./_ui/skip-to-content";
 export const metadata: Metadata = {
     title: "Maciej Ziemichod - Full stack developer",
     description: "I'm a passionate full stack developer from Poland.",
+    openGraph: {
+        title: "Maciej Ziemichod",
+        description: "Maciej Ziemichod's personal website",
+        images: "/og.png",
+        type: "website",
+    },
 };
 
 const isProduction = process.env.NODE_ENV === "production";
