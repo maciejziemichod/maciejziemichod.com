@@ -10,6 +10,7 @@ import { SkipToContent } from "./_ui/skip-to-content";
 export const metadata: Metadata = {
     title: "Maciej Ziemichod - Full stack developer",
     description: "I'm a passionate full stack developer from Poland.",
+    metadataBase: new URL("https://www.maciejziemichod.com"),
     openGraph: {
         title: "Maciej Ziemichod",
         description: "Maciej Ziemichod's personal website",
