@@ -86,8 +86,8 @@ export default function Home() {
                 </h2>
             </div>
             <p className="pt-5">
-                I'm an adaptable full-stack developer with a knack for solving
-                complex problems and delivering efficient solutions. My
+                I&apos;m an adaptable full-stack developer with a knack for
+                solving complex problems and delivering efficient solutions. My
                 technical expertise spans TypeScript, React, Node.js, PHP,
                 Symfony, and AWS, alongside proficiency in tools like Docker and
                 WordPress. I thrive on rapid learning and collaboration, with
@@ -95,11 +95,11 @@ export default function Home() {
                 measurable impact.
             </p>
             <p className="pt-5">
-                Beyond programming, I immerse myself in life’s diverse
+                Beyond programming, I immerse myself in life&apos;s diverse
                 experiences. From traveling and gaming to exploring new hobbies,
-                I embrace curiosity and creativity in everything I do. If you'd
-                like to dive deeper into my journey, projects, and interests,
-                you can learn{" "}
+                I embrace curiosity and creativity in everything I do. If
+                you&apos;d like to dive deeper into my journey, projects, and
+                interests, you can learn{" "}
                 <Link
                     className="text-white border-b border-neutral-400 hover:border-white transition"
                     href="/about"
