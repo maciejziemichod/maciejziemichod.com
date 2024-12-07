@@ -15,8 +15,8 @@ export default function Home() {
                 full stack developer.
             </p>
             <p className="pt-5">
-                My passion lies in building software and digital experiences.
-                You can find my full{" "}
+                My passion lies in building robust solutions and digital
+                experiences. You can find my full{" "}
                 <Link
                     href="/work"
                     className="text-white border-b border-neutral-400 hover:border-white transition"
@@ -35,33 +35,45 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-5">
                 <SimpleCard
-                    link="https://www.myktis.com/"
-                    image="/nwm.png"
-                    alt="MyKTIS website."
-                    title="Northwestern Media"
-                    description="Rebuild of legacy network of radio stations
-                            websites with client-side navigation, mobile apps and node servers."
+                    link="https://app.transcash.eu/"
+                    image="/transcash.jpg"
+                    alt="Transcash app website."
+                    title="Transcash"
+                    description="Led the development of Transcash, a platform offering factoring and legal services for transport firms"
                     stack={[
                         "React",
-                        "Socket.IO",
                         "TypeScript",
+                        "Redux",
+                        "RxJS",
                         "PHP",
-                        "Node",
-                        "WordPress",
+                        "Symfony",
+                        "RabbitMQ",
+                        "Redis",
+                        "Node.js",
+                        "AWS",
+                        "Nginx",
+                        "Docker",
                     ]}
                 />
                 <SimpleCard
-                    link="https://app.huumans.io/"
-                    image="/huumans.png"
-                    title="Huumans"
-                    alt="Huumans app shown on smartphone."
-                    description="Physical, mental and workplace wellbeing web app with diagnostic and reporting tools for employers and useful resources for employees."
+                    link="https://app.pactus.eu/"
+                    image="/pactus.jpg"
+                    title="Pactus"
+                    alt="Pactus app website."
+                    description="Developed Pactus, a dedicated debt collection app for transport companies"
                     stack={[
-                        "React",
-                        "Chart.js",
                         "TypeScript",
+                        "Node.js",
                         "PHP",
-                        "WordPress",
+                        "Symfony",
+                        "RabbitMQ",
+                        "Redis",
+                        "React",
+                        "RxJS",
+                        "Redux",
+                        "Docker",
+                        "Nginx",
+                        "AWS",
                     ]}
                 />
             </div>
@@ -74,19 +86,25 @@ export default function Home() {
                 </h2>
             </div>
             <p className="pt-5">
-                I&apos;m proficient in TypeScript, Node, React ecosystem, PHP
-                and WordPress. Rapid adoption and perseverance are my most
-                valuable traits.
+                I'm an adaptable full-stack developer with a knack for solving
+                complex problems and delivering efficient solutions. My
+                technical expertise spans TypeScript, React, Node.js, PHP,
+                Symfony, and AWS, alongside proficiency in tools like Docker and
+                WordPress. I thrive on rapid learning and collaboration, with
+                experience leading and contributing to projects that drive
+                measurable impact.
             </p>
             <p className="pt-5">
-                Outside of programming I embrace the joy of exploring life.
-                I&apos;m interested in too many things, from traveling to games.
-                You can{" "}
+                Beyond programming, I immerse myself in life’s diverse
+                experiences. From traveling and gaming to exploring new hobbies,
+                I embrace curiosity and creativity in everything I do. If you'd
+                like to dive deeper into my journey, projects, and interests,
+                you can learn{" "}
                 <Link
                     className="text-white border-b border-neutral-400 hover:border-white transition"
                     href="/about"
                 >
-                    read more about me here
+                    more about me here
                 </Link>
                 .
             </p>
